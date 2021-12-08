@@ -2,6 +2,6 @@
 sort: 22
 ---
 
-# Guides
+# VictoriaMetrics Operator
 
 1. [VictoriaMetrics Operator.md](VictoriaMetrics-Operator.html)
