@@ -37,15 +37,15 @@ VictoriaMetrics provides [helm charts](https://github.com/VictoriaMetrics/helm-c
 
 ## Documentation
 
-- quick start [doc](/docs/quick-start.MD)
-- high availability [doc](/docs/high-availability.MD)
-- relabeling configuration [doc](/docs/relabeling.MD)
-- managing crd objects versions [doc](/docs/managing-versions.MD)
-- design and description of implementation [design](/docs/design.MD)
-- operator objects description [doc](/docs/api.MD)
-- backups [docs](/docs/backups.MD)
-- security [doc](/docs/security.MD)
-- resource validation [doc](docs/resources-validation.MD)
+- quick start [doc](/quick-start.MD)
+- high availability [doc](/high-availability.MD)
+- relabeling configuration [doc](/relabeling.MD)
+- managing crd objects versions [doc](/managing-versions.MD)
+- design and description of implementation [design](/design.MD)
+- operator objects description [doc](/api.MD)
+- backups [docs](/backups.MD)
+- security [doc](/security.MD)
+- resource validation [doc](resources-validation.MD)
 
 
 ## Configuration
