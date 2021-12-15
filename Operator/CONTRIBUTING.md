@@ -1,4 +1,6 @@
-# Required programs
+# CONTRIBUTING
+
+## Required programs
 
 for developing you need: 
 - golang 1.15+
