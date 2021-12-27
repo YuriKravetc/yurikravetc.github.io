@@ -1,5 +1,5 @@
 ---
-sort: 25
+sort: 2
 ---
 
 # Helm charts release
