@@ -6,7 +6,7 @@ sort: 22
 
 1. [VictoriaMetrics Operator](VictoriaMetrics-Operator.html)
 2. [CONTRIBUTING](CONTRIBUTING.html)
-3.
+3. [Release](Release.html)
 4.
 5.
 6.
