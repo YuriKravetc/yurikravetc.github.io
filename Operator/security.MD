@@ -1,9 +1,13 @@
-## Security
+---
+sort: 13
+---
+
+# Security
 
 VictoriaMetrics operator provides several security features, such as [PodSecurityPolicies](https://kubernetes.io/docs/concepts/policy/pod-security-policy/), [PodSecurityContext](https://kubernetes.io/docs/tasks/configure-pod-container/security-context/).
 
 
-### PodSecurityPolicy.
+## PodSecurityPolicy.
 
  By default, operator creates serviceAccount for each cluster resource and binds default `PodSecurityPolicy` to it.
 
@@ -45,7 +49,7 @@ spec:
  User may also override default pod security policy with setting: `spec.podSecurityPolicyName: "psp-name"`.
  
 
-### PodSecurityContext
+## PodSecurityContext
 
  `PodSecurityContext` can be configured with spec setting. It may be useful for mounted volumes, with `VMSingle` for example:
  
