@@ -1,6 +1,10 @@
-### Helm charts release
+---
+sort: 25
+---
 
-#### Bump the version of images.
+# Helm charts release
+
+## Bump the version of images.
 
 1. Need to update [`values.yaml`](https://github.com/VictoriaMetrics/helm-charts/blob/master/charts/victoria-metrics-operator/values.yaml), 
 2. Specify the correct version in [`Chart.yaml`](https://github.com/VictoriaMetrics/helm-charts/blob/master/charts/victoria-metrics-operator/Chart.yaml)
