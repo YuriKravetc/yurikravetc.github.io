@@ -1,3 +1,7 @@
+---
+sort: 5
+---
+
 # Authorization and exposing components
 
 ## Exposing components
