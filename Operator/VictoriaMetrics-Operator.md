@@ -1,5 +1,5 @@
 ---
-sort: 24
+sort: 1
 ---
 
 [![Latest Release](https://img.shields.io/github/release/VictoriaMetrics/operator.svg?style=flat-square)](https://github.com/VictoriaMetrics/operator/releases/latest)
