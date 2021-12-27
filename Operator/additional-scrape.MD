@@ -1,3 +1,7 @@
+---
+sort: 3
+---
+
 # Additional Scrape Configuration
 
 AdditionalScrapeConfigs allows specifying a key of a Secret containing
