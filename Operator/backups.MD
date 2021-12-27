@@ -1,10 +1,14 @@
-## vmbackupmanager
+---
+sort: 22
+---
 
-#### vmbackupmanager is proprietary software. 
+# vmbackupmanager
+
+## vmbackupmanager is proprietary software. 
 
  Before using it, you must have signed contract and accept EULA https://victoriametrics.com/assets/VM_EULA.pdf
 
-### Usage examples
+## Usage examples
 
  `VMSingle` and `VMCluster` has built-in backup configuration, it uses `vmbackupmanager` - proprietary tool for backups.
  It supports incremental backups (hours, daily, etc) with popular object storages (aws s3, google cloud storage).
