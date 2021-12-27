@@ -1,4 +1,8 @@
-## VMAgent relabel
+---
+sort: 11
+---
+
+# VMAgent relabel
 
 
 `VMAgent` supports global relabeling for all metrics and per remoteWrite target relabel config. 
@@ -21,7 +25,7 @@ spec:
 
  It supports relabeling with custom configMap or inline defined at CRD
  
-### Configmap example
+## Configmap example
 
  Quick tour how to to create `Confimap` with relabeling configuration
  
@@ -81,7 +85,7 @@ EOF
 ```
 
 
-### Inline example:
+## Inline example:
 
 ```yaml
 cat <<EOF | kubectl apply -f -
@@ -119,7 +123,7 @@ EOF
 ```
 
 
-###  Combined example
+##  Combined example
 
  Its also possible to use both features in combination.
 
@@ -231,6 +235,6 @@ metadata:
 ```
 
 
-### Additional information
+## Additional information
 
 `VMAgent` also has some extra options for relabeling actions, you can check it [docs](https://github.com/VictoriaMetrics/VictoriaMetrics/blob/master/app/vmagent/README.md#relabeling)
