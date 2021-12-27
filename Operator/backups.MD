@@ -1,5 +1,5 @@
 ---
-sort: 22
+sort: 6
 ---
 
 # vmbackupmanager
