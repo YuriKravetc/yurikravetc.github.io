@@ -1,3 +1,7 @@
+---
+sort: 12
+---
+
 # CRD Validation
 
 ## Description
