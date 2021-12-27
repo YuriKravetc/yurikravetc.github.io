@@ -16,7 +16,7 @@ sort: 2
 8. Push the changes to `gh-pages` branch
 
 
-### Operator Hub release
+## Operator Hub release
 
 checkout to the latest release:
 1) `git checkout tags/v0.7.2`
