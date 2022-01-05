@@ -22,7 +22,7 @@ So you can use familiar CRD objects: `ServiceMonitor`, `PodMonitor`, `Prometheus
 - `VMRule` - defines alerting or recording rules.
 - `VMProbe` - defines a probing configuration for targets with blackbox exporter.
 
-Besides, operator allows you to manage VictoriaMetrics applications inside kubernetes cluster and simplifies this process [quick-start](/docs/operator/quick-start.MD) 
+Besides, operator allows you to manage VictoriaMetrics applications inside kubernetes cluster and simplifies this process [quick-start](/operator/quick-start.MD) 
 With CRD (Custom Resource Definition) you can define application configuration and apply it to your cluster [crd-objects](/docs/api.MD). 
 
  Operator simplifies VictoriaMetrics cluster installation, upgrading and managing.
