@@ -68,7 +68,7 @@ EOF
 ```
 
 
-You can change [operator-settings](/vars.MD), or use your custom namespace see [kustomize-example](./kustomize-example).
+You can change [operator-settings](/vars.MD), or use your custom namespace see [kustomize-example](https://github.com/YuriKravetc/yurikravetc.github.io/tree/main/Operator/kustomize-example).
 
 
 
@@ -102,18 +102,18 @@ kubectl get pods -n monitoring-system
 
 The VictoriaMetrics Operator introduces additional resources in Kubernetes to declare the desired state of a Victoria Metrics applications and Alertmanager cluster as well as the Prometheus resources configuration. The resources it introduces are:
 
-* [VMSingle](#VMSingle)
-* [VMCluster](#VMCluster)
-* [VMAgent](#VMAgent)
-* [VMAlert](#VMAlert)
-* [VMAlertmanager](#VMAlertmanager)
-* [VMServiceScrape](#VMServiceScrape)
-* [VMRule](#VMRule)
-* [VMPodScrape](#VMPodScrape)
-* [VMProbe](#VMProbe)
-* [VMStaticScrape](#VMStaticScrape)
-* [VMAuth](#VMAuth)
-* [VMUser](#VMUser)
+* [VMSingle](#vmsingle)
+* [VMCluster](#vmcluster)
+* [VMAgent](#vmagent)
+* [VMAlert](#vmalert)
+* [VMAlertmanager](#vmalertmanager)
+* [VMServiceScrape](#vmservicescrape)
+* [VMRule](#vmrule)
+* [VMPodScrape](#vmpodscrape)
+* [VMProbe](#vmprobe)
+* [VMStaticScrape](#vmstaticscrape)
+* [VMAuth](#vmauth)
+* [VMUser](#vmuser)
 * [Selectors](#Object selectors)
 
 ## VMSingle
