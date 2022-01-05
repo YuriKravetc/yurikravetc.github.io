@@ -69,7 +69,7 @@ It's needed to make consistent backups for each storage node.
 
  You can read more about backup configuration options and mechanics [here](https://github.com/VictoriaMetrics/VictoriaMetrics/tree/master/app/vmbackup)
  
- Possible configuration options for backup crd can be found at [link](/docs/api.MD#vmbackup)
+ Possible configuration options for backup crd can be found at [link](/docs/api.html#vmbackup)
  
  
 ## Restoring backups

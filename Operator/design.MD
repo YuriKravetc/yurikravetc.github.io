@@ -9,20 +9,20 @@ Metrics Operator introduces.
 
 Operator introduces the following custom resources:
 
-* [VMSingle](#VMSingle)
-* [VMCluster](#VMCluster)
-* [VMAgent](#VMAgent)
-* [VMAlert](#VMAlert)
-* [VMServiceScrape](#VMServiceScrape)
-* [VMPodScrape](#VMPodScrape)
-* [VMAlertmanager](#VMAlertmanager)
-* [VMAlertmanagerConfig](#VMAlertmanagerConfig)
-* [VMRule](#VMRule)
-* [VMProbe](#VMProbe)
-* [VMNodeScrape](#VMNodeScrape)
-* [VMStaticScrape](#VMStaticScrape)
-* [VMAuth](#VMAuth)
-* [VMUser](#VMUser)
+* [VMSingle](#vmSingle)
+* [VMCluster](#vmCluster)
+* [VMAgent](#vmAgent)
+* [VMAlert](#vmAlert)
+* [VMServiceScrape](#VvmerviceScrape)
+* [VMPodScrape](#vmPodScrape)
+* [VMAlertmanager](#vmAlertmanager)
+* [VMAlertmanagerConfig](#vmAlertmanagerConfig)
+* [VMRule](#vmRule)
+* [VMProbe](#vmProbe)
+* [VMNodeScrape](#VvmodeScrape)
+* [VMStaticScrape](#vmStaticScrape)
+* [VMAuth](#vmAuth)
+* [VMUser](#vmUser)
 
 ## VMSingle
 

@@ -142,7 +142,7 @@ EOF
 
 ## Basic auth for targets
 
-To authenticate a `VMServiceScrape`s over a metrics endpoint use [`basicAuth`](../api.md#basicauth)
+To authenticate a `VMServiceScrape`s over a metrics endpoint use [`basicAuth`](../api.html#basicauth)
 
 ```yaml
 cat <<EOF | kubectl apply -f -
