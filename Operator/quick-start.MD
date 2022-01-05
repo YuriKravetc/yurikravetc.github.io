@@ -118,7 +118,7 @@ The VictoriaMetrics Operator introduces additional resources in Kubernetes to de
 
 ## VMSingle
 
-[VMSingle](https://github.com/VictoriaMetrics/VictoriaMetrics/) represents database for storing metrics, for all possible config options check api [doc](/docs/api.MD#VMSingle):
+[VMSingle](https://github.com/VictoriaMetrics/VictoriaMetrics/) represents database for storing metrics, for all possible config options check api [doc](/Operator/api.MD#VMSingle):
  
 ```yaml
 cat <<EOF | kubectl apply -f -
@@ -452,7 +452,7 @@ EOF
 ## VMAlert
 
 [VMAlert](https://github.com/VictoriaMetrics/VictoriaMetrics/tree/master/app/vmalert) - executes a list of given [alerting](https://prometheus.io/docs/prometheus/latest/configuration/alerting_rules/) or [recording](https://prometheus.io/docs/prometheus/latest/configuration/recording_rules/) rules against configured address. It
-has few required config options - `datasource` and `notifier` are required, for other config parameters check [doc](/docs/api.MD#VMAlert).
+has few required config options - `datasource` and `notifier` are required, for other config parameters check [doc](/Operator/api.MD#VMAlert).
 
 ```yaml
 cat << EOF | kubectl apply -f -
@@ -1100,7 +1100,7 @@ static_configs: added targets: 2, removed targets: 0; total targets: 2
 
 [VMAuth](https://docs.victoriametrics.com/vmauth.html) allows protecting application with authentication and route traffic by rules.
 
-api docs [link](/docs/api.MD#VMAuthSpec)
+api docs [link](/Operator/api.MD#VMAuthSpec)
 
  First create `VMAuth` configuration:
 ```yaml
@@ -1141,7 +1141,7 @@ users:
 
 ## VMUser 
 
-  `VMUser` configures `VMAuth`. api doc [link](/docs/api.MD#VMUserSpec)
+  `VMUser` configures `VMAuth`. api doc [link](/Operator/api.MD#VMUserSpec)
 
   There are two authentication mechanisms: `bearerToken` and `basicAuth` with `username` and `password`. Only one of them can be used with `VMUser` at one time.
 If you need to provide access with different mechanisms for single endpoint, create multiple `VMUsers`.
