@@ -13,7 +13,7 @@ Operator introduces the following custom resources:
 * [VMCluster](#vmcluster)
 * [VMAgent](#vmagent)
 * [VMAlert](#vmalert)
-* [VMServiceScrape](#vmervicescrape)
+* [VMServiceScrape](#vmservicescrape)
 * [VMPodScrape](#vmpodscrape)
 * [VMAlertmanager](#vmalertmanager)
 * [VMAlertmanagerConfig](#vmalertmanagerconfig)
