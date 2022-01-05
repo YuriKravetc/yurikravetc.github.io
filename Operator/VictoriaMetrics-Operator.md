@@ -22,18 +22,18 @@ So you can use familiar CRD objects: `ServiceMonitor`, `PodMonitor`, `Prometheus
 - `VMRule` - defines alerting or recording rules.
 - `VMProbe` - defines a probing configuration for targets with blackbox exporter.
 
-Besides, operator allows you to manage VictoriaMetrics applications inside kubernetes cluster and simplifies this process [quick-start](/Operator/quick-start.MD) 
-With CRD (Custom Resource Definition) you can define application configuration and apply it to your cluster [crd-objects](/docs/api.MD). 
+Besides, operator allows you to manage VictoriaMetrics applications inside kubernetes cluster and simplifies this process [quick-start](/Operator/quick-start.html) 
+With CRD (Custom Resource Definition) you can define application configuration and apply it to your cluster [crd-objects](/Operator/api.html). 
 
  Operator simplifies VictoriaMetrics cluster installation, upgrading and managing.
  
- It has integration with VictoriaMetrics `vmbackupmanager` - advanced tools for making backups. Check backup [docs](/docs/backups.MD)
+ It has integration with VictoriaMetrics `vmbackupmanager` - advanced tools for making backups. Check backup [docs](/Operator/backups.html)
 
 ## Use cases
 
  For kubernetes-cluster administrators, it simplifies installation, configuration, management for `VictoriaMetrics` application. And the main feature of operator -  is ability to delegate applications monitoring configuration to the end-users.
  
- For applications developers, its great possibility for managing observability of applications. You can define metrics scraping and alerting configuration for your application and manage it with an application deployment process. Just define app_deployment.yaml, app_vmpodscrape.yaml and app_vmrule.yaml. That's it, you can apply it to a kubernetes cluster. Check [quick-start](/docs/quick-start.MD) for an example.
+ For applications developers, its great possibility for managing observability of applications. You can define metrics scraping and alerting configuration for your application and manage it with an application deployment process. Just define app_deployment.yaml, app_vmpodscrape.yaml and app_vmrule.yaml. That's it, you can apply it to a kubernetes cluster. Check [quick-start](/Operator/quick-start.html) for an example.
 
 ## Operator vs helm-chart
 
@@ -54,7 +54,7 @@ VictoriaMetrics provides [helm charts](https://github.com/VictoriaMetrics/helm-c
 
 ## Configuration
 
- Operator configured by env variables, list of it can be found at [link](/vars.MD)
+ Operator configured by env variables, list of it can be found at [link](/vars.html)
 
  It defines default configuration options, like images for components, timeouts, features.
 
